@@ -2,7 +2,7 @@ import turtle
 import os
 
 
-
+# Функция квадрата
 def kd(a):
     for i in range(4):
         leo.tilt(1)
@@ -10,13 +10,13 @@ def kd(a):
         leo.color(colors[i%4])
         leo.forward(a)
         leo.left(90)
-
+#Цвет линии
 colors = ["red", "blue", "green", "purple"]
-
+#Цвет фона
 screen = turtle.Screen()
 screen.bgcolor("yellow")
-leo = turtle.Turtle()
-leo.speed(150)
+leo = turtle.Turtle() #Присваиваем имя
+leo.speed(150) #Скорость прорисовки
 
 dlina = 40
 for i in range(60):
@@ -31,4 +31,4 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print_hi('GitHub')
+    print_hi('GitHub :)')
