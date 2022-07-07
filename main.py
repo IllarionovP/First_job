@@ -1,54 +1,28 @@
-# Shapes
 import turtle
-turtle.reset()
-turtle.width(3)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(50)
-turtle.right(90)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(50)
-turtle.right(90)
+import os
 
-turtle.up()
-turtle.left(180)
-turtle.forward(250)
-turtle.down()
-turtle.forward(50)
-turtle.left(300)
-turtle.left(180)
-turtle.forward(50)
-turtle.left(60)
-turtle.forward(50)
-turtle.left(60)
-turtle.forward(50)
-turtle.left(60)
-turtle.forward(50)
-turtle.left(60)
-turtle.forward(50)
-turtle.left(60)
-turtle.forward(50)
-turtle.left(120)
-turtle.forward(100)
-turtle.left(120)
-turtle.forward(50)
-turtle.left(120)
-turtle.forward(100)
-turtle.left(120)
-turtle.forward(50)
-turtle.left(120)
-turtle.forward(100)
 
-turtle.up()
-turtle.right(60)
-turtle.forward(200)
-turtle.down()
-turtle.forward(100)
-turtle.left(240)
-turtle.forward(100)
-turtle.left(240)
-turtle.forward(100)
+
+def kd(a):
+    for i in range(4):
+        leo.tilt(1)
+        leo.pensize(2)
+        leo.color(colors[i%4])
+        leo.forward(a)
+        leo.left(90)
+
+colors = ["red", "blue", "green", "purple"]
+
+screen = turtle.Screen()
+screen.bgcolor("yellow")
+leo = turtle.Turtle()
+leo.speed(150)
+
+dlina = 40
+for i in range(60):
+    kd(dlina)
+    leo.right(10)
+    dlina=dlina+5
 
 
 def print_hi(name):
