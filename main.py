@@ -1,16 +1,60 @@
-# This is a sample Python script.
+# Shapes
+import turtle
+turtle.reset()
+turtle.width(3)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(90)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+turtle.up()
+turtle.left(180)
+turtle.forward(250)
+turtle.down()
+turtle.forward(50)
+turtle.left(300)
+turtle.left(180)
+turtle.forward(50)
+turtle.left(60)
+turtle.forward(50)
+turtle.left(60)
+turtle.forward(50)
+turtle.left(60)
+turtle.forward(50)
+turtle.left(60)
+turtle.forward(50)
+turtle.left(60)
+turtle.forward(50)
+turtle.left(120)
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(50)
+turtle.left(120)
+turtle.forward(100)
+turtle.left(120)
+turtle.forward(50)
+turtle.left(120)
+turtle.forward(100)
+
+turtle.up()
+turtle.right(60)
+turtle.forward(200)
+turtle.down()
+turtle.forward(100)
+turtle.left(240)
+turtle.forward(100)
+turtle.left(240)
+turtle.forward(100)
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+    print(f'Hi, {name}')
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('GitHub')
-
-
