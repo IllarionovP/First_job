@@ -1,6 +1,6 @@
 ---
 - name: Создание пользователя 'user_test'
-  hosts: webservers
+  hosts: all
   become: yes
   tasks:
     - name: Проверка существования пользователя
