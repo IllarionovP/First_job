@@ -1,0 +1,10 @@
+---
+- name: Создание пользователя 'user_test'
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: Проверка существования пользователя
+      user:
+        name: user_test
+        state: present
+        comment: "New useradd"
