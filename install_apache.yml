@@ -6,5 +6,5 @@
   tasks:
 
   - name: install apache2 package
-    yum:
-      name: apache2
+    dnf:
+      name: httpd 
